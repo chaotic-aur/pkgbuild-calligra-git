@@ -9,17 +9,16 @@ pkgrel=1
 arch=($CARCH)
 url='https://www.calligra-suite.org/'
 license=(FDL1.2 GPL2 LGPL)
-depends=(kcmutils-git knotifyconfig-git kross-git kactivities-git kdiagram-git libspnav kdelibs4support-git
-         gsl openexr kcontacts-git qca-qt5-git poppler-qt5 libodfgen khtml-git cauchy)
-makedepends=(git extra-cmake-modules-git kdoctools-git kdesignerplugin-git kinit-git libwpg okular-git eigen marble-common-git boost pstoedit libvisio libetonyek libwps vc libgit2 kcalendarcore-git akonadi-git)
-optdepends=('libwpg: Corel WordPerfect Graphics image importer'
-            'libwps: Microsoft Works file word processor format import'
-            'libvisio: Microsoft Visio import filter'
+depends=(cauchy gcc-libs glibc gsl imath kactivities5-git kcontacts5-git kcoreaddons5-git kdelibs4support-git kdiagram5-git kcmutils5-git kinit-git knotifyconfig5-git kross-git kwidgetsaddons5-git libodfgen libspnav poppler-qt5 qca-qt5-git qt5-base)
+makedepends=(git boost eigen extra-cmake-modules-git kcalendarcore5-git kdesignerplugin-git kdoctools5-git libakonadi5-git libetonyek libgit2 libvisio libwpg libwps marble-common-git pstoedit vc)
+optdepends=('kirigami2-git: for Calligra Gemini'
             'libetonyek: Apple Keynote import filter'
-            'pstoedit: EPS to SVG filter'
-            'poppler: PDF to SVG filter'
             'libgit2: Calligra Gemini git plugin'
-            'kirigami2-git: for Calligra Gemini'
+            'libvisio: Microsoft Visio import filter'
+            'libwpg: Corel WordPerfect Graphics image importer'
+            'libwps: Microsoft Works file word processor format import'
+            'poppler: PDF to SVG filter'
+            'pstoedit: EPS to SVG filter'
             'qt5-quickcontrols: for Calligra Gemini'
             'qt5-webengine: for Calligra Gemini')
 conflicts=(${pkgname%-git})
