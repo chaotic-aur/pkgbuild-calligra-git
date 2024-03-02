@@ -4,13 +4,13 @@
 
 pkgname=calligra-git
 pkgdesc="A set of applications for productivity and creative usage"
-pkgver=3.2.89_r101526.g785c52d202b
+pkgver=3.3.89_r102346.ga0726e34
 pkgrel=1
 arch=($CARCH)
 url='https://www.calligra-suite.org/'
 license=(FDL1.2 GPL2 LGPL)
-depends=(cauchy gcc-libs glibc gsl imath kactivities5-git kcontacts5-git kcoreaddons5-git kdelibs4support-git kdiagram5-git kcmutils5-git kinit-git knotifyconfig5-git kross-git kwidgetsaddons5-git libodfgen libspnav poppler-qt5 qca-qt5-git qt5-base)
-makedepends=(git boost eigen extra-cmake-modules-git kcalendarcore5-git kdesignerplugin-git kdoctools5-git libakonadi5-git libetonyek libgit2 libvisio libwpg libwps marble-common-git pstoedit vc)
+depends=(cauchy gcc-libs glibc gsl imath kactivities5 kcontacts5 kcoreaddons5 kdelibs4support-git kdiagram5 kcmutils5 kinit-git knotifyconfig5 kross-git kwidgetsaddons5 libodfgen libspnav poppler-qt5 qca-qt5-git qt5-base)
+makedepends=(git boost eigen extra-cmake-modules-git kcalendarcore5 kdesignerplugin-git kdoctools5 libakonadi5 libetonyek libgit2 libvisio libwpg libwps marble-common-git pstoedit vc)
 optdepends=('kirigami2-git: for Calligra Gemini'
             'libetonyek: Apple Keynote import filter'
             'libgit2: Calligra Gemini git plugin'
